@@ -40,6 +40,14 @@ This project provides a **simple yet effective tool** to quickly assess system a
 
 ---
 
+## How to Run  
+- Step 1: CLone the repo.
+- Step 2: Go the the folder and right click and select "Open With Terminal"
+- Step 3: Write command `python riskAssessmentTool.py`, and click Enter.
+- Step 4: Select the operation you want to perform.
+
+---
+
 ## Demo Screenshot  
 *Screenshot 1:* 
 *Screenshot 2:* 
