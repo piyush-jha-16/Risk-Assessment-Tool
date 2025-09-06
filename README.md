@@ -41,9 +41,9 @@ This project provides a **simple yet effective tool** to quickly assess system a
 ---
 
 ## Demo Screenshot  
-*(Add screenshot of your tool’s menu here once it looks futuristic)*  
+*Screenshot 1:* 
+*Screenshot 2:* 
 
 ---
 
-## Contribution  
-Contributions are welcome! Fork this repo, add your feature, and create a PR.  
+
