@@ -2,6 +2,8 @@ import os
 import time
 from colorama import init, Fore, Style
 import socket
+
+
 # Initialize colorama
 init(autoreset=True)
 
@@ -46,7 +48,6 @@ def main_menu():
     while True:
         print_header()
         print(Fore.BLUE + "[1] Scan for Open Ports")
-        print(Fore.BLUE + "[2] Scan Connected Devices")
         print(Fore.BLUE + "[0] Exit")
         print()
 
@@ -56,10 +57,7 @@ def main_menu():
             print(Fore.CYAN + "\nEnter target IP address or hostname (e.g., 192.168.1.1 or localhost): ")
             target_ip = input()
             scan_open_ports(target_ip)
-        elif choice == '2':
-            loading_animation("Scanning Connected Devices")
-            print(Fore.YELLOW + "-> Example: Devices found: 192.168.1.2, 192.168.1.3")
-            input(Fore.CYAN + "\nPress Enter to return to menu...")
+
         elif choice == '0':
             print(Fore.GREEN + "\nExiting... Thank you!")
             break

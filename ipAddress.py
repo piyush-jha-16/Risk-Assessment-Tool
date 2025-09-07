@@ -12,7 +12,7 @@ def ping_scan(network):
     return active_hosts
 
 if __name__ == "__main__":
-    network = "192.168.1.0/24"
+    network = "10.103.133.0/24"
     devices = ping_scan(network)
     print("\nActive Devices:")
     for device in devices:
